@@ -41,7 +41,7 @@ export default class RandomPlanet extends Component {
 
     const {
       id, name, population, rotationPeriod, diameter 
-    } = this.state;
+    } = this.state
 
 
     return (
