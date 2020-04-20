@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import Header from './components/header/Header';
 import ErrorBoundry from './components/error-boundry/error-boundry';
 import SwapiService from "./services/swapi-service";
-import DummySwapiService from "./services/dummy-swapi-service";
 import { PersonList, PlanetList, StarshipList } from './components/sw-components/item-list';
 import './App.css';
-import { PersonDetails, PlanetDetails, StarshipDetails } from './components/sw-components/details';
+import  PersonDetails from './components/sw-components/person-details';
+import  PlanetDetails from './components/sw-components/planet-details ';
+import  StarshipDetails from './components/sw-components/starship-details';
 import { SwapiServiceProvider } from './components/swapi-service-context/swapi-service-context';
 
 
